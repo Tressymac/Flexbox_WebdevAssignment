@@ -1,0 +1,122 @@
+
+.mainwrapper {
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+
+        .navcontainer {
+            top:1px;
+                background-color: rgb(248, 232, 142);
+                top: 0;
+                width: 100%;
+                height: 30px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: flex-end;
+            }
+            
+            .navcontainer ul {
+                display: flex;
+                list-style-type: none;
+                text-decoration: none;
+            } 
+            
+            .navcontainer li {
+                margin-right: 5px;
+            }
+
+
+
+                    header {
+                        width: 100%;
+                        height: 100px;
+                        background-color: cyan;
+                        align-content:center;
+                        background-image: url('images.jfif'); 
+                    }
+
+                                .articles {
+                                    display: flex;
+                                    flex-direction: row;
+                                    flex-wrap: wrap;        
+                                    gap: 10% 30%;
+                                    margin: 10px;
+                                    width: 900px;
+                                    align-self: center;
+
+                                }
+
+
+                                .newsflash {
+                                    flex: 1 1 10px;
+                                    background-color:rgb(248, 232, 142);   
+                                    padding: 25px;    
+                                    box-sizing: border-box;  
+                                    border-top: 30px solid rgb(241, 161, 85);   
+                                    min-width: 0;    
+                                }
+
+                                .newsflash1 {
+                                    flex: 1 1 10px;
+                                    background-color:rgb(248, 232, 142);   
+                                    padding: 25px;    
+                                    border-top: 30px solid rgb(241, 161, 85);   
+                                    box-sizing: border-box;  
+                                    min-width: 0;    
+                                }
+
+                                        .focused {
+                                            width: 100%;       
+                                            height: 120px;        
+                                            background-color:rgb(248, 232, 142);       
+                                            margin: 25px;       
+                                            padding: 8px;     
+                                            align-self: center; 
+                                            text-align: center;
+                                        }
+
+                                                    .asides {
+                                                        display: flex;
+                                                        flex-direction: row;
+                                                        flex-wrap: wrap;        
+                                                        gap: 10% 10%;
+                                                        padding: 5px;   
+
+                                                        width: 80%;
+                                                        align-self: center;
+                                                        height: 300%;
+                                                        }
+
+
+                                                        .note {
+                                                            flex: 1 1 150px;
+                                                            height: 150px;
+                                                            background-color:rgb(248, 232, 142);   
+                                                            margin: 40px;
+                                                            box-sizing: border-box; 
+                                                            border-top: 30px solid rgb(241, 161, 85); 
+                                                            min-width: 0; 
+                                                        }
+
+
+                                                                    footer {
+                                                                        display: flex;
+                                                                        flex-direction: row;
+                                                                        flex-wrap: wrap;        
+                                                                        background-color:#f9ffa3;; 
+                                                                        }
+
+                                                                    .text {
+                                                                        flex: 1 1 10px;
+
+                                                                    }    
+                                                                        
+                                                                
+
+                                                
